@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: solid hsl(0, 0%, 77%);
-}
+} */
 
 h1 {
     display: flex;
@@ -9,7 +9,7 @@ h1 {
     font-family: "Cormorant", "Serif";
     font-weight: 500;
     font-size: 35px;
-    color: #566D8A;
+    color: #000000;
 }
 
 .project {
@@ -22,7 +22,7 @@ h1 {
     padding: 10px 20px 5px 20px;
     font-family: "Cormorant", "Serif";
     font-size: 18px;
-    color: #566D8A;
+    color: #000000;
 }
 
 .about, .project, .resume, .contact {
@@ -32,10 +32,10 @@ h1 {
 
 
 .solid {
-    border: 0.1px solid #566D8A;
+    border: 0.1px solid #000000;
 }
 
-/* Project 1 = Heart of Dinner */
+/* Carousel */
 h2 {
     display: flex;
     justify-content: center;
@@ -53,3 +53,27 @@ h2 {
     height: 500px;
 }
 
+/* Project 1 = Heart of Dinner */
+h3 {
+    font-family: "Cormorant", "serif";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+p {
+    font-family: "Karla", "san-serif";
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+#p2 {
+    font-family: "Karla", "san-serif";
+    font-size: 12px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
