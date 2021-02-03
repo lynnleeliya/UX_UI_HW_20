@@ -1,0 +1,17 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Cormorant", "Serif";
+    font-weight: 500;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-me, .project, .resume, .contact {
+    padding: 5px;
+}
