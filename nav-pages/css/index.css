@@ -1,0 +1,175 @@
+/* * {
+    border: solid darkblue;
+} */
+
+/* NAV BAR */
+nav {
+    height: 148px; 
+    }
+
+.left {
+    font-size: 48px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    color: #74A4BC;
+    padding: 20px 0px 0px 20px; 
+}
+
+.right {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    color:black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 30px 5px 30px;
+}
+hr.solid {
+    border-bottom: .5px solid black;
+}
+
+/* ABOUT LYNN PAGE */
+h1 {
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+    color: #74A4BC;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* ABOUT LYNN */
+/* PHOTO and BACKGROUND INFO*/
+.separator1 {
+    width: 2000px;
+}
+.imageContainer {
+    display: flex;
+    width: 1700px;
+    height: 800px;
+}
+
+.myPhoto {
+    width: 800px;
+    height: 800px;
+    float: left;
+    padding: 25px 50px 0px 150px;
+}
+
+.allCaptions {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.8;
+}
+
+#caption1 {
+    padding: 20px 0px 10px 0px;
+}
+
+/* HIGHLIGHTS OF HER SKILLS */
+h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+    color: #74A4BC;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 30px 0px;
+}
+.skillContainers {
+    display: flex;
+    justify-content: center;
+}
+
+.skillContainers div {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding: 40px 60px 60px 60px;
+    line-height: 1.8;
+}
+
+
+/* PERSONAL STYLE GUIDE */
+.style-guide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 800px;
+}
+
+h3 {
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+    color: #74A4BC;
+    display: flex;
+    justify-content: center;
+    padding: 110px 0px 40px 0px;
+}
+
+/* FUN FACTS ABOUT LYNN */
+h4 {
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+    color: #74A4BC;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px 30px 0px;
+}
+.fun-facts-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fun-facts-container div {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 290px;
+    height: 200px;
+    padding: 30px 60px 60px 60px;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    display: inline-block;
+    
+}
+
+.footerLogo {
+    width: 20px;
+    height: 40px;
+}
+
+.footerContact {
+    font-family: 'Karla', sans-serif;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+}
+.emailIcon {
+    width: 31px;
+    height: 31px;
+}
+.phoneIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.igIcon, .linkedinIcon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 5px;
+    justify-content: end;
+}
+
